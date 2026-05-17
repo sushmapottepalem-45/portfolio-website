@@ -1,0 +1,440 @@
+/* Main Heading */
+
+.main-heading{
+
+text-align:center;
+
+background:#111618;
+
+color:#38bdf8;
+
+padding:20px;
+
+font-size:38px;
+
+font-weight:bold;
+
+letter-spacing:2px;
+
+margin:0;
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+/* Body */
+
+body{
+
+background:
+linear-gradient(rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)),
+url('images/bg.jpg');
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
+
+background-attachment:fixed;
+
+color:white;
+
+
+}
+
+/* Navbar */
+
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 8%;
+
+background:rgba(15,23,42,0.9);
+
+position:sticky;
+top:0;
+
+z-index:1000;
+
+backdrop-filter:blur(5px);
+}
+
+/* Logo */
+
+.logo{
+
+display:flex;
+align-items:center;
+}
+
+.logo img{
+
+width:60px;
+height:60px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-right:10px;
+
+border:3px solid #38bdf8;
+}
+
+.logo h1{
+
+color:#38bdf8;
+}
+
+/* Nav Links */
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+}
+
+nav ul li{
+
+margin-left:25px;
+}
+
+nav ul li a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:18px;
+
+transition:0.3s;
+}
+
+nav ul li a:hover{
+
+color:#38bdf8;
+}
+
+/* Home */
+/* Home Section */
+
+.home{
+
+height:100vh;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:0 8%;
+
+flex-wrap:wrap;
+}
+
+/* Left Side Content */
+
+.home-content{
+
+width:55%;
+
+text-align:left;
+}
+
+.home-content h2{
+
+font-size:35px;
+}
+
+.home-content h1{
+
+font-size:70px;
+
+color:#38bdf8;
+
+margin:20px 0;
+}
+
+.home-content h3{
+
+font-size:30px;
+
+color:#dbeafe;
+}
+
+.home-content p{
+
+font-size:22px;
+
+line-height:1.8;
+
+margin:25px 0;
+}
+
+/* Right Side Profile Image */
+
+.profile-image{
+
+width:40%;
+
+display:flex;
+
+justify-content:flex-end;
+}
+
+.profile-image img{
+
+width:350px;
+
+height:350px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:5px solid #38bdf8;
+
+box-shadow:0px 0px 25px #38bdf8;
+}
+/* Button */
+
+.btn{
+
+display:inline-block;
+
+padding:15px 35px;
+
+background:#38bdf8;
+
+color:black;
+
+text-decoration:none;
+
+border-radius:10px;
+
+font-weight:bold;
+
+transition:0.3s;
+}
+
+.btn:hover{
+
+background:white;
+
+transform:scale(1.05);
+}
+
+/* Sections */
+
+section{
+
+padding:90px 8%;
+}
+
+section h2{
+
+font-size:42px;
+
+color:#38bdf8;
+
+margin-bottom:40px;
+
+border-bottom:4px solid #38bdf8;
+
+display:inline-block;
+
+padding-bottom:10px;
+}
+
+/* About */
+
+.about-box{
+
+background:rgba(30,41,59,0.8);
+
+padding:40px;
+
+border-radius:20px;
+
+line-height:2;
+
+font-size:20px;
+}
+
+/* Skills */
+
+.skills-container{
+
+display:flex;
+
+gap:25px;
+
+flex-wrap:wrap;
+}
+
+.skill-card{
+
+background:#1e293b;
+
+padding:18px 35px;
+
+border-radius:12px;
+
+min-width:160px;
+
+text-align:center;
+
+font-size:18px;
+
+transition:0.3s;
+}
+
+.skill-card:hover{
+
+background:#38bdf8;
+
+color:black;
+
+transform:translateY(-8px);
+}
+
+/* Projects */
+
+.project-container{
+
+display:flex;
+
+gap:35px;
+
+flex-wrap:wrap;
+}
+
+.project-card{
+
+background:#1e293b;
+
+width:320px;
+
+border-radius:20px;
+
+overflow:hidden;
+
+transition:0.3s;
+}
+
+.project-card img{
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+}
+
+.project-card h3{
+
+color:#38bdf8;
+
+margin:20px;
+}
+
+.project-card p{
+
+margin:20px;
+
+line-height:1.8;
+}
+
+.project-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0px 0px 20px #38bdf8;
+}
+
+/* Resume */
+
+#resume{
+
+text-align:center;
+}
+
+/* Contact */
+
+#contact{
+
+text-align:center;
+}
+
+#contact p{
+
+margin-top:15px;
+
+font-size:20px;
+}
+
+/* Social Icons */
+
+.social-icons{
+
+margin-top:30px;
+}
+
+.social-icons a{
+
+color:white;
+
+font-size:32px;
+
+margin:0 15px;
+
+transition:0.3s;
+}
+
+.social-icons a:hover{
+
+color:#38bdf8;
+
+transform:scale(1.2);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+nav{
+
+flex-direction:column;
+}
+
+nav ul{
+
+margin-top:15px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+}
+
+.home-content h1{
+
+font-size:45px;
+}
+
+.project-container,
+.skills-container{
+
+justify-content:center;
+}
+}
